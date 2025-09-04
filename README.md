@@ -1,3 +1,22 @@
+# BMW Gesture Volume Control
+
+A Python project that uses OpenCV + Mediapipe + Pycaw to control system volume with hand gestures (like BMW cars).
+
+## Features
+- Rotate index finger clockwise → increase volume
+- Rotate counter-clockwise → decrease volume
+- Works in real time with webcam
+
+## Requirements
+- Python 3.8+
+- OpenCV
+- Mediapipe
+- Pycaw (Windows only)
+
+## Installation
+```bash
+pip install opencv-python mediapipe pycaw comtypes numpy
+
 # gesture-controlled-volume-using-opencv-and-mediapipe
 import cv2
 import mediapipe as mp
